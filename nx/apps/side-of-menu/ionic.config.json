@@ -1,0 +1,7 @@
+{
+  "name": "side-of-menu",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

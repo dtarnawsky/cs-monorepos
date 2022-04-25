@@ -1,0 +1,28 @@
+{
+  "root": "apps/tabs-of-doom-e2e",
+  "sourceRoot": "apps/tabs-of-doom-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/tabs-of-doom-e2e/cypress.json",
+        "devServerTarget": "tabs-of-doom:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "tabs-of-doom:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/tabs-of-doom-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["tabs-of-doom"]
+}

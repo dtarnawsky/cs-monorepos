@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "my-first-app": {
+      "name": "my-first-app",
+      "integrations": {
+        "capacitor": {}
+      },
+      "type": "angular",
+      "root": "apps/my-first-app"
+    },
+    "my-second-app": {
+      "name": "my-second-app",
+      "integrations": {},
+      "type": "angular",
+      "root": "apps/my-second-app"
+    }
+  }
+}

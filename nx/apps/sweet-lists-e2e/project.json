@@ -1,0 +1,28 @@
+{
+  "root": "apps/sweet-lists-e2e",
+  "sourceRoot": "apps/sweet-lists-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/sweet-lists-e2e/cypress.json",
+        "devServerTarget": "sweet-lists:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "sweet-lists:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/sweet-lists-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["sweet-lists"]
+}

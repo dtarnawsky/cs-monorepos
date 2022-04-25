@@ -1,0 +1,7 @@
+{
+  "name": "tabs-of-doom",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

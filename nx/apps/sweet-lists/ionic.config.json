@@ -1,0 +1,7 @@
+{
+  "name": "sweet-lists",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

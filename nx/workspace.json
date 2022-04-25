@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "projects": {
+    "my-app": "apps/my-app",
+    "my-app-e2e": "apps/my-app-e2e",
+    "side-of-menu": "apps/side-of-menu",
+    "side-of-menu-e2e": "apps/side-of-menu-e2e",
+    "sweet-lists": "apps/sweet-lists",
+    "sweet-lists-e2e": "apps/sweet-lists-e2e",
+    "tabs-of-doom": "apps/tabs-of-doom",
+    "tabs-of-doom-e2e": "apps/tabs-of-doom-e2e"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "projects": {
+    "my-app1": {
+      "name": "my-app1",
+      "integrations": {
+        "capacitor": {}
+      },
+      "type": "angular",
+      "root": "apps/my-app1"
+    },
+    "my-app2": {
+      "name": "my-app2",
+      "integrations": {
+        "capacitor": {}
+      },
+      "type": "react",
+      "root": "apps/my-app2"
+    },
+    "my-vue-app": {
+      "name": "my-vue-app",
+      "integrations": {
+        "capacitor": {}
+      },
+      "type": "vue",
+      "root": "apps/my-vue-app"
+    }
+  }
+}

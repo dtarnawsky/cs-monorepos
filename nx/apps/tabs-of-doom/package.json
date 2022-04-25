@@ -1,0 +1,6 @@
+{
+  "name": "tabs-of-doom",
+  "devDependencies": {
+    "@capacitor/cli": "^3.2.5"
+  }
+}
